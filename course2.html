@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Curs 2</title>
+</head>
+<body>
+  <ul>
+    <li>&gt;&gt;&gt;&gt;Primul element</li>
+    <li>Al doilea element</li>
+    <li>Al treilea element</li>
+  </ul>
+
+  <ol>
+    <li>Primul element dintr-o lista ordonata</li>
+    <li>Al doilea element dintr-o lista ordonata</li>
+    <li>Al treilea element dintr-o lista ordonata</li>
+  </ol>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="2">Aceasta celula ocupa doua coloane</th>
+    </tr>
+    <tr>
+      <th>Prima celula din header</th>
+      <th>A doua celula din header</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Prima celula din body</td>
+      <td>A doua celula din body</td>
+    </tr>
+    <tr>
+      <td rowspan="2">Prima celula din body</td>
+      <td>A doua celula din body</td>
+    </tr>
+    <tr>
+      <td>A doua celula din body</td>
+    </tr>
+  </tbody>
+</table>
+
+<form>
+  <label for="textInputName">Name:</label>
+  <br>
+  <input type="text" placeholder="Your name" id="textInputName">
+  <br>
+
+  <label for="butonLumina">
+    Selecteaza lumina
+    <input type="radio" id="butonLumina" name="radioIluminare">
+  </label>
+  <br>
+  <label for="butonIntuneric">
+    Selecteaza intunericul
+    <input type="radio" id="butonIntuneric" name="radioIluminare">
+  </label>
+  <br>
+  <label for="checkboxCartofiPai">
+    Cartofi pai
+    <input type="checkbox" id="checkboxCartofiPai">
+  </label>
+  <br>
+  <label for="checkboxSarmale">
+    Sarmale
+    <input type="checkbox" id="checkboxSarmale">
+  </label>
+
+  <br>
+  <label for="myTextArea">
+  What are you thinking about today?
+  <br>
+  <textarea rows="5" id="myTextArea">
+    Aici poti scrie toti ce-ti doreste sufletelul
+  </textarea>
+  </label>
+
+  <br>
+  <label for="randomSelect">
+    Alege orice
+    <br>
+    <select id="randomSelect">
+      <option selected>Bere</option>
+      <option>Sarmale</option>
+      <option disabled>party</option>
+    </select>
+  </label>
+
+  <br>
+  <input type="button" value="Submit">
+</form>
+</body>
+</html>
